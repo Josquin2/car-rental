@@ -3,22 +3,22 @@
     <div class="left-header">
       <h1>MORENT</h1>
       <label class="header-search">
-        <img src="/public/icons/header/search-normal.svg" alt="" />
+        <img src="/icons/header/search-normal.svg" alt="" />
         <input type="text" placeholder="Search something here" />
       </label>
     </div>
     <div class="right-header">
       <div class="header-circle">
-        <img src="/public/icons/header/heart.svg" alt="" />
+        <img src="/icons/header/heart.svg" alt="" />
       </div>
       <div class="header-circle">
-        <img src="/public/icons/header/notification.svg" alt="" />
+        <img src="/icons/header/notification.svg" alt="" />
       </div>
       <div class="header-circle">
-        <img src="/public/icons/header/settings.svg" alt="" />
+        <img src="/icons/header/settings.svg" alt="" />
       </div>
       <div class="header-circle">
-        <img src="/public/icons/header/account.svg" alt="" />
+        <img src="/icons/header/account.svg" alt="" />
       </div>
     </div>
   </header>
@@ -32,7 +32,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 64px;
+  padding: 0 4.44vw;
 
   * {
     background-color: #ffffff;

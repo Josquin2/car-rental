@@ -21,8 +21,7 @@ export class Api {
         url: `${this.url}/${endpoint}`,
         data: body,
         headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${this.token}`
+          'Content-Type': 'application/json'
         }
       })
       return response.data
